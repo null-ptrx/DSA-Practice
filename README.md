@@ -143,3 +143,20 @@ Feel free to reach out if you have any questions or suggestions!
 **Happy Coding! 🚀**
 
 *Last Updated:  1 February 2026*
+
+---
+
+## 🧩 Problems
+
+### 🔹 Hashing
+
+- [fibocacci Number - 509](Problems/fibocacciNumber.cpp)
+- [Longest Subarray with Zero Sum](Problems/Hashing/longest-subarray-zero-sum.cpp)
+
+### 🔹 Arrays
+
+- [Kadane's Algorithm](Problems/Arrays/kadane.cpp)
+
+### 🔹 Graph
+
+- [BFS Traversal](Problems/Graph/bfs.cpp)

@@ -150,7 +150,7 @@ Feel free to reach out if you have any questions or suggestions!
 
 ### 🔹 Hashing
 
-- [fibocacci Number - 509](Problems/fibocacciNumber.cpp)
+- [fibocacci Number - 509](problems/fibocacciNumber.cpp)
 - [Longest Subarray with Zero Sum](Problems/Hashing/longest-subarray-zero-sum.cpp)
 
 ### 🔹 Arrays

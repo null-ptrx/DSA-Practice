@@ -150,8 +150,11 @@ Feel free to reach out if you have any questions or suggestions!
 
 ### 🔹 Hashing
 
-- [fibocacci Number - 509](problems/fibocacciNumber.cpp)
-- [Longest Subarray with Zero Sum](Problems/Hashing/longest-subarray-zero-sum.cpp)
+## 🧩 Problems
+
+- [x] [Fibonacci Number - 509](Problems/fibonacciNumber.cpp)
+- [ ] [Two Sum - 1](Problems/twoSum.cpp)
+- [ ] [Kadane's Algorithm](Problems/kadane.cpp)
 
 ### 🔹 Arrays
 

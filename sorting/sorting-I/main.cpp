@@ -20,10 +20,10 @@ void selection(int arr[], int n)
 void bubble(int arr[], int n)
 {
     for (int i = 0; i < n - 1; i++)
-    {   
+    {
         int count = 0;
         for (int j = 0; j < n - i - 1; j++)
-        {   
+        {
             if (arr[j] > arr[j + 1])
             {
                 int temp = arr[j];
@@ -32,19 +32,30 @@ void bubble(int arr[], int n)
                 count++;
             }
         }
-        if (count == 0) return;
+        if (count == 0)
+            return;
     }
 }
 void insertion(int arr[], int n)
 {
-    
+    for (int i = 1; i < n; i++)
+    {
+        int j = i;
+        while (j > 0 && arr[j - 1] > arr[j])
+        {
+            int temp = arr[j];
+            arr[j] = arr[j - 1];
+            arr[j - 1] = temp;
+            j--;
+        }
+    }
 }
 int main()
 {
     int arr[] = {13, 46, 24, 52, 20, 9};
     int n = 6;
 
-    bubble(arr, n);
+    insertion(arr, n);
 
     for (int i = 0; i < n; i++)
     {

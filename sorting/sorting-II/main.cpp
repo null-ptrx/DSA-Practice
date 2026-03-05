@@ -46,11 +46,31 @@ void mergeSort(int arr[], int low, int high)
     merge(arr, low, mid, high);
 }
 
+// void bubbleSort (int arr[], int n) {
+//     if (n <= 0) return;
+//     bubbleSort(arr, n-1);
+//     if (arr[n -1] > arr[n]) {
+//         swap(arr[n-1], arr[n]);
+//     }
+// }
+// void bubbleSort (int arr[], int s, int end) {
+//     if (end <= s) return;
+//     bubbleSort(arr, s, end-1);
+//     if (arr[s] > arr[end]) {
+//         swap(arr[s], arr[end]);
+//     }
+// }
+void bubbleSort (int arr[],int pass, int n, int s, int e) {
+    if (s == e) return;
+    bubbleSort(arr,pass, n, s, e -1);
+    if (arr[e-1] > arr[e]) {
+        swap(arr[e-1], arr[e]);
+    }
+}
 int main()
 {
-    int n = 7;
-    int arr[n] = {5, 6, 74, 2, 1, 3, 55};
-    mergeSort(arr, 0, 6);
+    int arr[4] = {5, 4, 3, 2};
+    bubbleSort(arr,1, 3, 0, 3);
 
     for (int i : arr)
     {

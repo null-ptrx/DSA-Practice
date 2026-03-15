@@ -25,7 +25,7 @@ dsa/
 ├── math/
 ├── recursion/
 ├── hashing/
-├── sorting/
+├── sorting/hello
 └── problems/
 ```
 

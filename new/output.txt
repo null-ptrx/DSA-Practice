@@ -1,4 +1,0 @@
-Square of 2 = 4
-Square of 5 = 25
-Square of 10 = 100
-Square of -3 = 9

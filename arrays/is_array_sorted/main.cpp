@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+void is_sorted (vector<int> arr, int n) {
+    
+
+}
+
 int main()
 {
 
@@ -16,7 +21,7 @@ int main()
         {
             cin >> arr[i];
         }
-        is_sorted(arr, 0, n);
+        is_sorted(arr, n);
 
         for (int i = 0; i < n; i++)
         {

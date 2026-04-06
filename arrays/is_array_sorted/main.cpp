@@ -1,9 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void is_sorted (vector<int> arr, int n) {
-    
-
+bool is_sorted (vector<int> arr, int n) {
+    for (int i = 1; i <n; i++) {
+        if (arr[i] >= arr[i - 1]);
+        else return false;
+    }
+    return true;
 }
 
 int main()
@@ -21,13 +24,7 @@ int main()
         {
             cin >> arr[i];
         }
-        is_sorted(arr, n);
-
-        for (int i = 0; i < n; i++)
-        {
-            cout << arr[i] << " ";
-        }
-        cout << endl;
+        cout << is_sorted(arr, n) << endl;
     }
     return 0;
 }

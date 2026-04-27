@@ -20,14 +20,19 @@ A personal repository to document my Data Structures and Algorithms journey usin
 
 ```
 dsa/
-├── complexity/
-├── patterns/
-├── stl/
-├── math/
-├── recursion/
-├── hashing/
-├── sorting/
-└── problems/
+|
+|-basics/
+| ├── complexity/
+|  ├── patterns/
+|  ├── stl/
+|  ├── math/
+|  ├── recursion/
+|  ├── hashing/
+|  ├── sorting/
+|  └── problems/
+|
+Arrays
+
 ```
 
 > More topics coming soon.

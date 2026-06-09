@@ -1,17 +1,23 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool is_sorted (vector<int> arr, int n) {
-    for (int i = 1; i <n; i++) {
-        if (arr[i] >= arr[i - 1]);
-        else return false;
+bool sortedOrNot(vector<int> &arr, int n)
+{
+    for (int i = 1; i < n; i++)
+    {
+        if (arr[i] >= arr[i - 1])
+        {
+        }
+        else
+        {
+            return false;
+        };
     }
     return true;
 }
 
 int main()
 {
-
     int t;
     cin >> t;
 
@@ -24,7 +30,7 @@ int main()
         {
             cin >> arr[i];
         }
-        cout << is_sorted(arr, n) << endl;
+        cout << "simple only one approch exist";
+        cout << "--array is sorted or not" << sortedOrNot(arr, n) << endl;
     }
-    return 0;
 }

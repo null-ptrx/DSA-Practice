@@ -1,39 +1,27 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-// 🔴 Brute Force
-void brute(vector<int>& arr, int n) {
-    int temp = arr[0];
+//Brute Force
+void rotatedByone(vector<int>& nums, int n) {
+    int temp;
+    temp = nums[0];
     for (int i = 1; i < n; i++) {
-        arr[i-1] = arr[i];
+        nums[i-1] = nums[i];
     }
-    arr[n-1] = temp;
+    nums[n-1] = temp;
 }
-
-
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-
     int t;
     cin >> t;
-
     while (t--) {
         int n;
         cin >> n;
-
-        vector<int> arr(n);
+        vector<int> nums(n);
         for (int i = 0; i < n; i++) {
-            cin >> arr[i];
+            cin >> nums[i];
         }
-
-        brute(arr, n);
-        for (int i = 0; i < n;i++) {
-            cout << arr[i] << " ";
-        }
-        cout << endl;
-      
+        rotatedByone(nums, n);
     }
-
     return 0;
 }

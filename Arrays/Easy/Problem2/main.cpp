@@ -34,18 +34,22 @@ int secondLargestBetter(vector<int> arr, int n) {
 }
 
 int secondLargestOptimal(vector<int> arr, int n) {
-    int largest = arr[0];
-    int secondLargest = -1;
-    for (int i = 0; i < n; i++) {
-        if (arr[i] > largest ) {
-            secondLargest = largest;
-            largest = arr[i];
+    int largest =arr[0];
+        int secondLargest = INT_MIN;
+        for (int i = 0; i <arr.size(); i++) {
+            if (arr[i] > largest) {
+                secondLargest = largest;
+                largest =arr[i];
+            } else if (arr[i] < largest &&arr[i] > secondLargest) {
+                secondLargest =arr[i];
+            }
         }
-        else if (arr[i] < largest && arr[i] > secondLargest) {
-            secondLargest = arr[i];
-        } 
-    }                                              
-    return secondLargest;
+        if (secondLargest != INT_MIN && secondLargest < largest) {
+
+        return secondLargest;
+        }
+        else return -1;
+    
 }
 
 int main()

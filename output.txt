@@ -1,3 +1,2 @@
-simple only one approch exist--array is sorted or not1
-simple only one approch exist--array is sorted or not0
-simple only one approch exist--array is sorted or not0
+3 5 6 0 0 3 
+4 4 4 5 5 -2 2 4 

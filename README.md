@@ -18,3 +18,4 @@ A personal repository to document my Data Structures and Algorithms journey usin
 | 10 | Intersection of two sorted arrays | [Link](Arrays/easy/p10.cpp) |
 | 11 | Find missing number | [Link](Arrays/easy/p11.cpp) |
 | 12 | Maximum Consecutive Ones | [Link](Arrays/easy/p12.cpp) |
+| 13 | Find the number that appears once. | [Link](Arrays/easy/p13.cpp) |

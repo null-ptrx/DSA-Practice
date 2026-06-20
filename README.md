@@ -15,6 +15,6 @@ A personal repository to document my Data Structures and Algorithms journey usin
 | 7 | Move Zeros to End | [Link](Arrays/easy/p7.cpp) |
 | 8 | Linear Search | [Link](Arrays/easy/p8.cpp) |
 | 9 | Union of two sorted arrays | [Link](Arrays/easy/p9.cpp) |
-| 10 | Intersection | [Link](Arrays/easy/p10.cpp) |
+| 10 | Intersection of two sorted arrays | [Link](Arrays/easy/p10.cpp) |
 | 11 | Find missing number | [Link](Arrays/easy/p11.cpp) |
 | 12 | Maximum Consecutive Ones | [Link](Arrays/easy/p12.cpp) |

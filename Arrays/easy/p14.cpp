@@ -40,7 +40,29 @@ int test(vector<int> &nums, int n)
     }
     return maxLen;
 }
-
+//better
+int test(vector<int> &nums, int n)
+{
+    int k = 15;
+    map<int , int> mp;
+    int maxLen = 0;
+    int sum = 0;
+    for(int i = 0; i < n; i++) {
+        sum += nums[i];
+        if (sum == k) {
+            maxLen = max(maxLen, i + 1);
+        }
+        int rem = sum - k;
+        if (mp.find(rem) != mp.end()) {
+            int len = i- mp[rem];
+            maxLen = max(maxLen ,len);
+        }
+        if (mp.find(sum) == mp.end()) {
+            mp[sum] = i;
+        }
+    }
+    return maxLen;
+}
 
 // approch at first 
 void test(vector<int> &nums, int n)

@@ -84,6 +84,29 @@ int test(vector<int> &nums, int n)
     }
     return maxLen;
 }
+// opyimal only if array has positive only 
+int test(vector<int> &nums, int n) {
+    int k = 6;
+    int maxLen = 0;
+    int sum = nums[0];
+    int right = 0;
+    int left = 0;
+
+    while (right < n) {
+        while (left <= right && sum > k) {
+            sum -= nums[left];
+            left++;
+        }
+        if (sum == k) {
+            maxLen = max(maxLen , right - left + 1);
+        }
+        right++;
+        if (right < n) {
+            sum += nums[right];
+        }
+    }
+    return maxLen;
+}
 
 
 // approch at first 

@@ -19,3 +19,5 @@ A personal repository to document my Data Structures and Algorithms journey usin
 | 11 | Find missing number | [Link](Arrays/easy/p11.cpp) |
 | 12 | Maximum Consecutive Ones | [Link](Arrays/easy/p12.cpp) |
 | 13 | Find the number that appears once. | [Link](Arrays/easy/p13.cpp) |
+| 14 | Longest subarray with given sum K(positives) | [Link](Arrays/easy/p14.cpp) |
+| 15 | Longest subarray with given sum K(all +ve, -ve, 0) | [Link](Arrays/easy/p15.cpp) |

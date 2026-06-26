@@ -1,5 +1,5 @@
 // brute1
-int test(vector<int> &nums, int n)
+int longestSubarray(vector<int> &nums, int n)
 {
     int target = 15;
     int maxLen = 0;
@@ -22,7 +22,7 @@ int test(vector<int> &nums, int n)
     return maxLen;
 }
 // brute 2
-int test(vector<int> &nums, int n)
+int longestSubarray(vector<int> &nums, int n)
 {
     int target = 15;
     int maxLen = 0;
@@ -41,7 +41,7 @@ int test(vector<int> &nums, int n)
     return maxLen;
 }
 //better1
-int test(vector<int> &nums, int n)
+int longestSubarray(vector<int> &nums, int n)
 {
     int k = 15;
     map<int , int> mp;
@@ -64,7 +64,7 @@ int test(vector<int> &nums, int n)
     return maxLen;
 }
 //better 2
-int test(vector<int> &nums, int n)
+int longestSubarray(vector<int> &nums, int n)
 {
     int k = 15;
     int maxLen = 0;
@@ -85,7 +85,7 @@ int test(vector<int> &nums, int n)
     return maxLen;
 }
 // opyimal only if array has positive only 
-int test(vector<int> &nums, int n) {
+int longestSubarray(vector<int> &nums, int n) {
     int k = 6;
     int maxLen = 0;
     int sum = nums[0];
@@ -110,7 +110,7 @@ int test(vector<int> &nums, int n) {
 
 
 // approch at first 
-void test(vector<int> &nums, int n)
+void longestSubarray(vector<int> &nums, int n)
 {
     int k = 15;
     vector<int> subArray;

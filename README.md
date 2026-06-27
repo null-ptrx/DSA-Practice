@@ -23,3 +23,5 @@ A personal repository to document my Data Structures and Algorithms journey usin
 | 15 | Two sum problem | [Link](Arrays/easy/p15.cpp) |
 | 16 | Sort an array of 0's 1's and 2's | [Link](Arrays/easy/p16.cpp) |
 | 17 | Majority Element-I| [Link](Arrays/easy/p17.cpp) |
+| 18 | Print subarray with maximum subarray sum| [Link](Arrays/easy/p18.cpp) |
+| 19 | Stock Buy and Sell [Link](Arrays/easy/p19.cpp) |

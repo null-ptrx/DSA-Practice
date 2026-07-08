@@ -2,26 +2,29 @@
 
 A personal repository to document my Data Structures and Algorithms journey using C++, organized topic-wise.
 
-## Arrays — Easy
+## Arrays
 
 | # | Problem | Solution |
 |---|---------|----------|
-| 1 | Largest Element | [Link](Arrays/easy/p1.cpp) |
-| 2 | Second Largest Element | [Link](Arrays/easy/p2.cpp) |
-| 3 | Check if the Array is Sorted II | [Link](Arrays/easy/p3.cpp) |
-| 4 | Remove duplicates from Sorted array | [Link](Arrays/easy/p4.cpp) |
-| 5 | Left Rotate Array by One | [Link](Arrays/easy/p5.cpp) |
-| 6 | Left Rotate Array by K Places | [Link](Arrays/easy/p6.cpp) |
-| 7 | Move Zeros to End | [Link](Arrays/easy/p7.cpp) |
-| 8 | Linear Search | [Link](Arrays/easy/p8.cpp) |
-| 9 | Union of two sorted arrays | [Link](Arrays/easy/p9.cpp) |
-| 10 | Intersection of two sorted arrays | [Link](Arrays/easy/p10.cpp) |
-| 11 | Find missing number | [Link](Arrays/easy/p11.cpp) |
-| 12 | Maximum Consecutive Ones | [Link](Arrays/easy/p12.cpp) |
-| 13 | Find the number that appears once. | [Link](Arrays/easy/p13.cpp) |
-| 14 | Longest subarray with given sum K(positives) | [Link](Arrays/easy/p14.cpp) |
-| 15 | Two sum problem | [Link](Arrays/easy/p15.cpp) |
-| 16 | Sort an array of 0's 1's and 2's | [Link](Arrays/easy/p16.cpp) |
-| 17 | Majority Element-I| [Link](Arrays/easy/p17.cpp) |
-| 18 | Print subarray with maximum subarray sum| [Link](Arrays/easy/p18.cpp) |
-| 19 | Stock Buy and Sell [Link](Arrays/easy/p19.cpp) |
+| 1 | Largest Element | [Link](Arrays/largest_element.cpp) |
+| 2 | Second Largest Element | [Link](Arrays/second_largest_element.cpp) |
+| 3 | Check if the Array is Sorted | [Link](Arrays/check_sorted.cpp) |
+| 4 | Remove Duplicates from Sorted Array | [Link](Arrays/remove_duplicates.cpp) |
+| 5 | Left Rotate Array by One | [Link](Arrays/rotate_array_by_one.cpp) |
+| 6 | Left Rotate Array by K Places | [Link](Arrays/rotate_array_by_k_places.cpp) |
+| 7 | Move Zeros to End | [Link](Arrays/move_zeros_to_end.cpp) |
+| 8 | Linear Search | [Link](Arrays/linear_search.cpp) |
+| 9 | Union of Two Sorted Arrays | [Link](Arrays/union_of_sorted_arrays.cpp) |
+| 10 | Intersection of Two Sorted Arrays | [Link](Arrays/intersection_of_sorted_arrays.cpp) |
+| 11 | Find Missing Number | [Link](Arrays/missing_number.cpp) |
+| 12 | Maximum Consecutive Ones | [Link](Arrays/max_consecutive_ones.cpp) |
+| 13 | Find the Number that Appears Once | [Link](Arrays/single_number.cpp) |
+| 14 | Longest Subarray with Given Sum K | [Link](Arrays/longest_subarray_with_sum_k.cpp) |
+| 15 | Two Sum | [Link](Arrays/two_sum.cpp) |
+| 16 | Sort an Array of 0s, 1s, and 2s | [Link](Arrays/sort_012.cpp) |
+| 17 | Majority Element | [Link](Arrays/majority_element.cpp) |
+| 18 | Maximum Subarray Sum | [Link](Arrays/max_subarray_sum.cpp) |
+| 19 | Best Time to Buy and Sell Stock | [Link](Arrays/buy_sell_stocks.cpp) |
+| 20 | Rearrange Array Elements by Sign | [Link](Arrays/rearrange_by_sign.cpp) |
+| 21 | Next Permutation | [Link](Arrays/next_permutation.cpp) |
+| 22 | Leaders in an Array | [Link](Arrays/leaders_in_array.cpp) |

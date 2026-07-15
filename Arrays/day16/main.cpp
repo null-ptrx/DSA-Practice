@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+//optimal
+void sortZeroOneTwo(vector<int>& nums, int n) {
+    int low = 0; 
+    int mid = 0;
+    int high = n-1;
+    while (mid <= high) {
+        if (nums[mid] == 0) {
+            swap(nums[mid], nums[low]);
+            low++;
+            mid++;
+        }
+        else if (nums[mid] == 1) {
+            mid++;
+        }
+        else {
+            swap(nums[mid], nums[high]);
+            high--;
+        }
+    } 
+    for (auto it : nums) {
+        cout << it << " ";
+    }
+    cout << endl;
+}
+int main() {
+    
+    return 0;
+}
